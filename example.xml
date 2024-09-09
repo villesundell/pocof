@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context xmlns="./PoCoF.xsd">
+  <Message to="model">I am me.</Message>
+  <Tensor>
+    I
+    <Tensor>English</Tensor>
+    <Tensor>person</Tensor>
+    <Tensor>human</Tensor>
+    <Tensor>我</Tensor>
+    <Tensor>minä</Tensor>
+  </Tensor>
+
+  <Tensor>
+    am
+    <Tensor>English</Tensor>
+    <Tensor>verb<Tensor>
+    <Tensor>is</Tensor>
+    <Tensor>是</Tensor>
+    <Tensor>olen</Tensor>
+  </Tensor>
+
+  <Tensor>
+    me
+    <Tensor>English</Tensor>
+    <Tensor>person</Tensor>
+    <Tensor>human</Tensor>
+    <Tensor>我</Tensor>
+    <Tensor>minä</Tensor>
+  </Tensor>
+
+  <Message from="model">Hello you.</Message>
+
+  <State name="user.name">me</State>
+
+  <Message from="model" type="memoryupdate">User's name is "me".</Message>
+</Context>
